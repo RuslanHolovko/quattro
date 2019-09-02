@@ -275,10 +275,21 @@
   overflow-y: hidden;
 }
 
+.popupdef__inner{
+  display: flex;
+}
+
 .popupdef.opened{
   opacity: 1;
   visibility: visible;
   transform: translate(-50%, -50%);
+}
+
+.total-price.col{
+    border: 1px solid #f2f2f2;
+    border-radius: 6px;
+    padding: 15px;
+    background: #fafafa;
 }
 
 .popup-overlay{
@@ -359,6 +370,16 @@
 .popupdef__item img{
   max-width: 50px;
   border: 1px solid #ddd;
+}
+
+.popupdef .form-control{
+  min-height: 40px;
+}
+
+.popupdef .btn.btn-primary{
+  min-height: 50px;
+  padding: 0 40px;
+  margin: 0;
 }
 
 input[type=number]::-webkit-inner-spin-button, 
